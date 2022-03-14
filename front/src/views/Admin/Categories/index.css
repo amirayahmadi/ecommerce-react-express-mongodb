@@ -1,0 +1,46 @@
+.addbutton {
+    height: 50px;
+    width: 50px;
+    border: 1px solid lightgrey;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: var(--pcolor);
+    cursor: pointer;
+}
+.closebutton {
+    height: 50px;
+    width: 50px;
+    border: 1px solid lightgrey;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    background: rgb(255, 106, 106);
+    cursor: pointer;
+}
+.iconplacment {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.category_form {
+    margin: 20px 0px;
+}
+
+.delet_icon {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+    cursor: pointer;
+    color:rgb(255, 106, 106) ;
+}

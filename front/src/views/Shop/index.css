@@ -1,0 +1,12 @@
+.shop {
+    display: flex;
+}
+.products_shop {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.products_count {
+    display: flex;
+    justify-content: space-between;
+}

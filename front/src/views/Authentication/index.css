@@ -1,0 +1,42 @@
+.authentication {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.switch {
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+display: flex;
+position: relative;
+    background: rgb(243, 242, 242);
+}
+.togler {
+    position: absolute;
+    width: 48%;
+    height: 75%;
+    border-radius: 5px;
+
+    opacity: 0.5;
+    
+    background: var(--pcolor); 
+    -webkit-transition: all 2s;
+    -moz-transition: all 2s;
+    -ms-transition: all 2s;
+    -o-transition: all 2s;
+    transition: all 2s;
+}
+.moveright {
+    transform: translate(100%, 0%);
+}
+.moveleft {
+    transform: translate(0%, 0%);
+}
+.switch button {
+  /*   */
+    outline: none;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}

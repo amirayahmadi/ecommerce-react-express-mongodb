@@ -1,0 +1,18 @@
+.delete_icon {
+    height: 40px;
+    width: 40px;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+}
+.delete_icon:hover {
+    background: rgb(255, 111, 111);
+}
+
+.la-trash-alt {
+    font-size: 20px;
+}

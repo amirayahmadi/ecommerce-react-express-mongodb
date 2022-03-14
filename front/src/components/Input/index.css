@@ -1,0 +1,44 @@
+.Input_Field {
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    margin: 5px 0px;
+    padding: 5px 10px;
+}
+
+.has_error {
+    border: 1px solid red;
+}
+
+.has_no_errors {
+border: 1px solid lightgrey;
+}
+
+.error_message {
+    color: red;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 14px;
+}
+
+.passinput {
+    width: 100%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+   
+    padding: 5px 10px;
+}
+
+.password {
+    width: 100%;
+    background: white !important;
+    outline: none;
+    border : none;
+   
+}
+
+.la-eye-slash .la-eye {
+    font-size: 25px;
+}
